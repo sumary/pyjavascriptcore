@@ -1,0 +1,23 @@
+Original copyright notice:
+
+  version 0.0003
+  Applied the patches supplied by MonkeeSage Thanx :)
+  This fixes the ucs2/ucs4 bug which I had earlier
+  Also MonkeeSage fixed other things, he make call function nicer and fixed lists so the work properly
+  Also fixed his patch so it works with both ucs2/ucs4 python
+  Fixed the setup.py so that it can use pkg-config instead
+
+  version 0.0002
+  I need a versioning system lol
+  cython wrapper for JSContextRef in pywebkitgtk
+  you need cython to make it
+  So you can call Javascript functions etc from python
+  Made by john paul janecek
+  Free Beer copyright, do what the heck you want with it, just give me credit
+  Also do not blame me if your things blow up
+  if you need to contact me, i might answer back :) I am lazy when it comes to making fixes
+  unless I actually am using library myself :)
+
+  my email
+  import binascii
+  binascii.a2b_base64('anBqYW5lY2VrQGdtYWlsLmNvbQ==\n')
