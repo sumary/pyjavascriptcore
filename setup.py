@@ -40,6 +40,9 @@ pkgconfig.wait()
 extra_link_args = pkgconfig.stdout.read().split()
 
 setup(
+    name = "javascriptcore",
+    version = "0.0003",
+    description = "Javascript Core for Python",
     cmdclass = {'build_ext': build_ext},
     ext_modules = [Extension("javascriptcore", ["javascriptcore.pyx"],
                              extra_compile_args = extra_compile_args,
